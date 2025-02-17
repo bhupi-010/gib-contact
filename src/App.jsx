@@ -62,26 +62,34 @@ export default function App() {
           <div className="contact-container">
             <div className="contact-item">
               <div className="contact-details">
+                <FontAwesomeIcon icon={faUser} />
                 <p>
-                  <strong>Name: Umesh Raj Pant</strong>
+                  <strong>Umesh Raj Pant</strong>
                 </p>
-                <p>Role: Managing Director</p>
-                <p>Contact: 9861151077</p>
+                <p>(Managing Director)</p>
+                <p>
+                  {" "}
+                  <FontAwesomeIcon icon={faPhone} /> 9861151077
+                </p>
                 <a href="mailto:pantumesh11@gmail.com">
-                  Email: pantumesh11@gmail.com
+                  <FontAwesomeIcon icon={faEnvelope} /> pantumesh11@gmail.com
                 </a>
               </div>
             </div>
 
             <div className="contact-item">
               <div className="contact-details">
+                <FontAwesomeIcon icon={faUser} />
                 <p>
-                  <strong>Name: Bhuwan Bista</strong>
+                  <strong>Bhuwan Bista</strong>
                 </p>
-                <p>Role: Execution Head</p>
-                <p>Contact: 9868775155</p>
+                <p>(Execution Head)</p>
+                <p>
+                  {" "}
+                  <FontAwesomeIcon icon={faPhone} /> 9868775155
+                </p>
                 <a href="mailto:bhuwanbist990@gmail.com">
-                  Email: bhuwanbist990@gmail.com
+                  <FontAwesomeIcon icon={faEnvelope} /> bhuwanbist990@gmail.com
                 </a>
               </div>
             </div>
@@ -95,7 +103,7 @@ export default function App() {
 
         <div className="location-info">
           <p>
-            Street Number 5, Bhimdatta 10400, Sudurpashchim Province, Nepal
+            📍 Street Number 5, Bhimdatta 10400, Sudurpashchim Province, Nepal
             <br />
             <a
               href="https://www.google.com/maps/place/GIB+-+Beginning+of+Innovative+Generation/@28.9658363,80.1800013,762m/data=!3m2!1e3!4b1!4m6!3m5!1s0x39a1ab5dfbac735b:0x3c638d0894f05a65!8m2!3d28.9658363!4d80.1800013!16s%2Fg%2F11fks3tbp0?entry=ttu&g_ep=EgoyMDI1MDIxMi4wIKXMDSoASAFQAw%3D%3D"
