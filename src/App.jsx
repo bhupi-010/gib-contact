@@ -83,7 +83,7 @@ export default function App() {
                 <p>
                   <strong>Bhuwan Bista</strong>
                 </p>
-                <p>(Execution Head)</p>
+                <p>(Executive Head)</p>
                 <p>
                   {" "}
                   <FontAwesomeIcon icon={faPhone} /> 9868775155
