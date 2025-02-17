@@ -96,6 +96,7 @@ body {
   padding: 10px;
   width: 550px;
 }
+
 .contact-info {
   padding: 0 10px 10px 10px;
   width: 550px;
@@ -106,7 +107,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  justify-content: space-between;
+  justify-content: center; 
 }
 
 .contact-item {
@@ -120,13 +121,29 @@ body {
   font-size: 14px;
 }
 
-.contact-details p {
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
+  width: 250px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  text-align: center; /* Center the text inside the contact item */
+}
+
+.contact-details {
+  width: 100%;
+  text-align: center; /* Ensure text inside contact-details is centered */
+}
+
+.contact-item p {
   margin: 2px 0;
-  text-align: start;
   line-height: 1.2;
 }
 
-.contact-details a {
+.contact-item a {
   color: #2ca3dd;
 }
 
