@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container-fluid {
+  text-align: center;
+}
+
+.hero-section {
+  background-color: #132c33;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-picture {
+  width: 160px;
+  height: 160px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-picture img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.title {
+  margin: 10px 0 0 0;
+  color: #2ca3dd;
+}
+
+.subtitle {
+  margin: 0 0 0 10px;
+  font-weight: bold;
+  color: #2ca3dd;
+}
+
+.icon-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.icon {
+  color: #132c33;
+  font-size: 1.5em;
+}
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.description {
+  max-width: 400px;
+  text-align: center;
+  color: black;
+  margin: 10px 0;
+}
+
+.email-info,
+.location-info,
+.birthday-info,
+.social-media {
+  border-top: 1px solid #ccc;
+  padding: 10px;
+  width: 550px;
+}
+.contact-info {
+  padding: 0 10px 10px 10px;
+  width: 550px;
+}
+
+.contact-container {
+  width: 550px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.contact-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
+  width: 250px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.contact-details p {
+  margin: 2px 0;
+  text-align: start;
+  line-height: 1.2;
+}
+
+.contact-details a {
+  color: #2ca3dd;
+}
+
+.email-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.email-info a {
+  color: #2ca3dd;
+  margin: 16px 0;
+}
+
+.location-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.map-link {
+  color: #2ca3dd;
+}
+
+.birthday-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-media {
+  text-align: center;
+}
+
+.social-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #2ca3dd;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.button-container {
+  border-top: 1px solid #ccc;
+  width: 358px;
+  padding: 10px;
+}
+
+.contact-btn {
+  background-color: #132c33;
+  padding: 10px 15px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact-btn a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Responsive styles */
+
+@media (max-width: 767px) {
+  .hero-section {
+    min-height: 40vh;
+  }
+
+  .email-info,
+  .location-info,
+  .birthday-info,
+  .social-media {
+    width: 360px;
+  }
+
+  .contact-info {
+    padding: 0 10px 10px 0px;
+    width: 360px;
+  }
+
+  .contact-container {
+    flex-direction: column;
+    align-items: start;
+    justify-content: flex-start;
+    width: 360px;
+  }
+
+  .contact-item {
+    width: 100%;
+  }
+}
